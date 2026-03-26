@@ -74,5 +74,6 @@ if user_score > computer_score:
     print("Congratulations!!!! You are the winner!")
 elif computer_score > user_score:
     print("Computer is the winner!!!")
-else print("The game is tie!")    
+else:
+    print("The game is tie!")    
             
